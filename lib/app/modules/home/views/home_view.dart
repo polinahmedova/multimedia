@@ -21,8 +21,8 @@ class HomeView extends GetView<HomeController> {
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
             colors: [
-              Color.fromRGBO(88, 210, 237, 1),
-              Color.fromRGBO(74, 235, 165, 1)
+              Color.fromRGBO(18, 197, 237, 1),
+              Color.fromRGBO(23, 207, 127, 1)
             ],
           ),
         ),
@@ -65,7 +65,7 @@ class HomeView extends GetView<HomeController> {
                   Padding(
                     padding: EdgeInsets.only(left: 100),
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () => Get.toNamed(Routes.SECOND),
                       child: Container(
                         width: 400,
                         padding: EdgeInsets.all(15),

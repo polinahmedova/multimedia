@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
+import 'package:multimedia/app/modules/second/controllers/second_controller.dart';
 import 'package:multimedia/app/routes/app_pages.dart';
 
 import '../controllers/first_controller.dart';
 
-class FirstView extends GetView<FirstController> {
-  const FirstView({Key? key}) : super(key: key);
+class SecondView extends GetView<SecondController> {
+  const SecondView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +32,7 @@ class FirstView extends GetView<FirstController> {
             SizedBox(
               height: 20,
             ),
-            Text('Первые блюда:',
+            Text('Вторые блюда:',
                 style: TextStyle(
                     fontSize: 35,
                     fontWeight: FontWeight.w800,
@@ -45,16 +46,16 @@ class FirstView extends GetView<FirstController> {
               elevation: 1,
               color: Colors.white,
               child: GestureDetector(
-                onTap: () => Get.toNamed(Routes.CHICKENSOUP),
+                onTap: () => Get.toNamed(Routes.GOLUBCI),
                 child: ListTile(
                   leading: Text(
-                    'Куриный суп',
+                    'Ленивые голубцы',
                     style: TextStyle(
                         fontSize: 35,
                         fontWeight: FontWeight.w800,
                         color: Color.fromRGBO(35, 191, 218, 1)),
                   ),
-                  trailing: Text('со сливками и лапшой',
+                  trailing: Text('в духовке',
                       style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.w600,

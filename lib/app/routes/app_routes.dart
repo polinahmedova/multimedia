@@ -6,6 +6,10 @@ abstract class Routes {
   static const HOME = _Paths.HOME;
   static const FIRST = _Paths.FIRST;
   static const CHICKENSOUP = _Paths.CHICKENSOUP;
+  static const SVEKOLNIK = _Paths.SVEKOLNIK;
+  static const TOMATESOUP = _Paths.TOMATESOUP;
+  static const SECOND = _Paths.SECOND;
+  static const GOLUBCI = _Paths.GOLUBCI;
 }
 
 abstract class _Paths {
@@ -13,4 +17,8 @@ abstract class _Paths {
   static const HOME = '/home';
   static const FIRST = '/first';
   static const CHICKENSOUP = '/chickensoup';
+  static const SVEKOLNIK = '/svekolnik';
+  static const TOMATESOUP = '/tomatesoup';
+  static const SECOND = '/second';
+  static const GOLUBCI = '/golubci';
 }

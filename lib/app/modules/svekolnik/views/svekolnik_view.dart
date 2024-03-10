@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
-import '../controllers/chickensoup_controller.dart';
+import '../controllers/svekolnik_controller.dart';
 
-class ChickensoupView extends GetView<ChickensoupController> {
-  const ChickensoupView({Key? key}) : super(key: key);
+class SvekolnikView extends GetView<SvekolnikController> {
+  const SvekolnikView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,8 +38,8 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 150, top: 20),
                       child: Image.asset(
-                        'images/chickensoup.jpg',
-                        width: 200,
+                        'images/svekolnik.jpg',
+                        width: 400,
                       ),
                     ),
                     SizedBox(
@@ -59,7 +59,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 150, top: 15),
                       child: Text(
-                        ' - Курица: 400 г',
+                        ' - Курица или другое мясо (для бульона): 700 г',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w800,
@@ -70,7 +70,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 150, top: 10),
                       child: Text(
-                        ' - Лапша: 100 г',
+                        ' - Свёкла: 1 небольшая',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w800,
@@ -81,7 +81,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 150, top: 10),
                       child: Text(
-                        ' - Сливки: 200 мл(10-15%)',
+                        ' - Картофель: 1 крупный',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w800,
@@ -92,7 +92,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 150, top: 10),
                       child: Text(
-                        ' - Картофель: 500 г',
+                        ' - Помидор: 1 крупный',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w800,
@@ -103,7 +103,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 150, top: 10),
                       child: Text(
-                        ' - Лук репчатый: 100 г',
+                        ' - Перец болгарский: 1 крупный',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w800,
@@ -114,7 +114,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 150, top: 10),
                       child: Text(
-                        ' - Морковь: 100 г',
+                        ' - Морковь: 1 крупная',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w800,
@@ -125,7 +125,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 150, top: 10),
                       child: Text(
-                        ' - Чеснок: 3 зубчика',
+                        ' - Лук репчатый: 1 небольшой',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w800,
@@ -136,7 +136,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 150, top: 10),
                       child: Text(
-                        ' - Петрушка свежая: 6 веточек',
+                        ' - Чеснок: 2 зубчика',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w800,
@@ -147,7 +147,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 150, top: 10),
                       child: Text(
-                        ' - Масло растительное: 3 ст. ложки',
+                        ' - Соль по вкусу',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w800,
@@ -158,7 +158,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 150, top: 10),
                       child: Text(
-                        ' - Перец черный молотый: 1 ч. ложка',
+                        ' - Перец по вкусу',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w800,
@@ -169,7 +169,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 150, top: 10),
                       child: Text(
-                        ' - Соль: 1,5 ч. ложки',
+                        ' - Вода: 1,5 литра',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w800,
@@ -178,9 +178,9 @@ class ChickensoupView extends GetView<ChickensoupController> {
                       ),
                     ),
                     Padding(
-                      padding: EdgeInsets.only(left: 150, top: 10, bottom: 10),
+                      padding: EdgeInsets.only(left: 150, top: 10),
                       child: Text(
-                        '- Вода: 2-2,5 л',
+                        ' - Зелень и сметана для подачи',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w800,
@@ -210,14 +210,14 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 60, top: 20),
                       child: Image.asset(
-                        'images/chikensoup2.jpg',
+                        'images/svekolnik2.jpg',
                         width: 400,
                       ),
                     ),
                     Padding(
                       padding: EdgeInsets.only(right: 150, top: 10, bottom: 5),
                       child: Text(
-                        '1. Курицу залейте в кастрюле водой и добавьте 3-4 веточки петрушки. Доведите до кипения. Снимите пену и варите на небольшом огне до готовности куриного мяса, примерно 30 минут.',
+                        '1. Сначала мы сварили небольшую кастрюльку бульона из курицы (можно сварить бульон из говядины или другого мяса).',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w400,
@@ -228,7 +228,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(right: 150, bottom: 5),
                       child: Text(
-                        '2. Картофель очистите, промойте и нарежьте небольшими кубиками.',
+                        '2. Чтобы куриное мясо и суп получились вкуснее, бросили в бульон горсть мелко нарезанного болгарского перца.',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w400,
@@ -239,7 +239,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(right: 150, bottom: 5),
                       child: Text(
-                        '3. Лук и морковь очистите. Лук нарежьте мелкими кубиками, морковь натрите на крупной тёрке.',
+                        '3. Пока бульон варился, натерли на крупной терке небольшую свеклу и морковь. Лук нарезали мелко.',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w400,
@@ -250,7 +250,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(right: 150, bottom: 5),
                       child: Text(
-                        '4. В сковороде разогрейте растительное масло. Выложите морковь и лук. Обжарьте овощи до мягкости, примерно 5 минут.',
+                        '4. Обдали кипятком спелый помидор и сняли с него кожицу. Мелко нарезали помидор.',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w400,
@@ -261,7 +261,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(right: 150, bottom: 5),
                       child: Text(
-                        '5. Отваренную курицу извлеките из бульона. Бульон процедите и верните в чистую кастрюлю. Куриное мясо отделите от костей, разделите на волокна.',
+                        '5. Когда курица почти сварилась, добавили в бульон картофель, нарезанный кубиками.',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w400,
@@ -272,7 +272,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(right: 150, bottom: 5),
                       child: Text(
-                        '6. Переложите мясо птицы в кастрюлю с бульоном, поставьте на плиту, доведите до кипения. В закипевший бульон добавьте картофель, варите 15 минут на небольшом огне',
+                        '6. В это время на сковороду с разогретым маслом выложили измельченные овощи и потушили 5-7 минут.',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w400,
@@ -283,7 +283,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(right: 150, bottom: 5),
                       child: Text(
-                        '7. Добавьте в суп лапшу (длинную можно разломать на части) и варите ещё 5 минут.',
+                        '7. В процессе тушения свёклы, моркови, лука и помидора я мелко порезала чеснок и забросила его в сковороду, перемешивая овощи.',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w400,
@@ -294,7 +294,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(right: 150, bottom: 5),
                       child: Text(
-                        'Оставшуюся петрушку снимите со стеблей, измельчите. Чеснок очистите и мелко нарежьте.',
+                        '8. Я вытащила мясо из бульона и забросила туда овощи. Посолила по вкусу.',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w400,
@@ -305,7 +305,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(right: 150, bottom: 5),
                       child: Text(
-                        '8. Добавьте в кастрюлю обжаренные овощи, соль и молотый перец.',
+                        '9. Куриное мясо мелко порезали и отправили обратно в кастрюлю с супом. Еще 3-5 минут - и свекольный суп с курицей готов!',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w400,
@@ -316,29 +316,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(right: 150, bottom: 5),
                       child: Text(
-                        '9. Влейте в суп сливки, доведите до кипения и снимите с огня.',
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w400,
-                          color: Colors.white,
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(right: 150, bottom: 5),
-                      child: Text(
-                        '10. Добавьте измельчённый чеснок и рубленую свежую зелень. Перемешайте. Дайте супу настояться минут 10.',
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w400,
-                          color: Colors.white,
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(right: 150, bottom: 5),
-                      child: Text(
-                        'Разлейте суп по тарелкам и подавайте к столу. Приятного аппетита!',
+                        'Подать горячий свекольник со сметаной и зеленью.',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w400,
@@ -349,7 +327,7 @@ class ChickensoupView extends GetView<ChickensoupController> {
                     Padding(
                       padding: EdgeInsets.only(left: 60, top: 10, bottom: 5),
                       child: Image.asset(
-                        'images/chickensoup3.jpg',
+                        'images/svekolnik3.jpeg',
                         width: 400,
                       ),
                     ),
