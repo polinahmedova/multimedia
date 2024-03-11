@@ -69,16 +69,16 @@ class SecondView extends GetView<SecondController> {
               elevation: 1,
               color: Colors.white,
               child: GestureDetector(
-                onTap: () => Get.toNamed(Routes.SVEKOLNIK),
+                onTap: () => Get.toNamed(Routes.PLOV),
                 child: ListTile(
                   leading: Text(
-                    'Свекольник',
+                    'Рассыпчатый плов',
                     style: TextStyle(
                         fontSize: 35,
                         fontWeight: FontWeight.w800,
                         color: Color.fromRGBO(35, 191, 218, 1)),
                   ),
-                  trailing: Text('как в детском саду',
+                  trailing: Text('с курицей',
                       style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.w600,

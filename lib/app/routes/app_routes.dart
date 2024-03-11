@@ -10,6 +10,7 @@ abstract class Routes {
   static const TOMATESOUP = _Paths.TOMATESOUP;
   static const SECOND = _Paths.SECOND;
   static const GOLUBCI = _Paths.GOLUBCI;
+  static const PLOV = _Paths.PLOV;
 }
 
 abstract class _Paths {
@@ -21,4 +22,5 @@ abstract class _Paths {
   static const TOMATESOUP = '/tomatesoup';
   static const SECOND = '/second';
   static const GOLUBCI = '/golubci';
+  static const PLOV = '/plov';
 }

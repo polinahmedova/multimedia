@@ -8,6 +8,8 @@ import '../modules/golubci/bindings/golubci_binding.dart';
 import '../modules/golubci/views/golubci_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
+import '../modules/plov/bindings/plov_binding.dart';
+import '../modules/plov/views/plov_view.dart';
 import '../modules/second/bindings/second_binding.dart';
 import '../modules/second/views/second_view.dart';
 import '../modules/svekolnik/bindings/svekolnik_binding.dart';
@@ -57,6 +59,11 @@ class AppPages {
       name: _Paths.GOLUBCI,
       page: () => const GolubciView(),
       binding: GolubciBinding(),
+    ),
+    GetPage(
+      name: _Paths.PLOV,
+      page: () => const PlovView(),
+      binding: PlovBinding(),
     ),
   ];
 }
